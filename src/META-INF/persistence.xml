@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="utfpr.edu.brPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <class>utfpr.edu.br.model.Unidade</class>
+    <class>utfpr.edu.br.model.EntradaProduto</class>
+    <class>utfpr.edu.br.model.EntradaProdutos</class>
+    <class>utfpr.edu.br.model.Estado</class>
+    <class>utfpr.edu.br.model.Familia</class>
+    <class>utfpr.edu.br.model.Fornecedor</class>
+    <class>utfpr.edu.br.model.MovimentacaoEstoque</class>
+    <class>utfpr.edu.br.model.Produto</class>
+    <class>utfpr.edu.br.model.SaidaProdutos</class>
+    <class>utfpr.edu.br.model.Setor</class>
+    <class>utfpr.edu.br.model.TipoMovimentacao</class>
+    <class>utfpr.edu.br.model.TranferenciaProdutos</class>
+    <class>utfpr.edu.br.model.Setor_1</class>
+    <shared-cache-mode>ALL</shared-cache-mode>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/dbestoque"/>
+      <property name="javax.persistence.jdbc.user" value="postgres"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="Serial"/>
+    </properties>
+  </persistence-unit>
+</persistence>

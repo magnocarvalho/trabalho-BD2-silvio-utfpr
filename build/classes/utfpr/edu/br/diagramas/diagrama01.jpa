@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jpa:entity-mappings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:java="http://jcp.org/en/jsr/detail?id=270" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jpa="http://java.sun.com/xml/ns/persistence/orm" v="1.5.4" xs="false" id="_14652612644231" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm orm_2_1.xsd">
+    <jpa:entity xre="false" sm="false" abs="false" class="Setor" visibile="true" minimized="false" rootElement="_14652612644231" id="_14652612644502">
+        <jpa:attributes>
+            <basic optional="true" attribute-type="String" visibile="true" name="descricao" id="_14652612644784">
+                <jpa:column name="descricao" unique="false" nullable="true" insertable="true" updatable="true" table="setor" length="255"/>
+            </basic>
+            <jpa:id attribute-type="Integer" visibile="true" name="id" id="_14652612644783">
+                <jpa:column name="id" unique="false" nullable="false" insertable="true" updatable="true" table="setor"/>
+            </jpa:id>
+        </jpa:attributes>
+        <jpa:table name="setor"/>
+    </jpa:entity>
+    <jpa:diagram>
+        <plane elementRef="_14652612644231">
+            <shape elementRef="_14652612644502">
+                <Bounds x="138.0" y="74.0" width="128.0" height="92.0"/>
+            </shape>
+        </plane>
+    </jpa:diagram>
+</jpa:entity-mappings>
